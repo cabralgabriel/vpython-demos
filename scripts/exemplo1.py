@@ -10,8 +10,8 @@ dt=0.01
 scene.camera.follow(bola1) #camera acompanha a bola
 
 #janelas dos graficos
-grafico1 = gdisplay()
-grafico2 = gdisplay()
+grafico1 = graph()
+grafico2 = graph()
 
 #curvas
 b1vel=gcurve(graph=grafico1, color=color.red)
