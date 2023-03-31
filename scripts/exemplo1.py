@@ -1,5 +1,7 @@
+#Exemplo de como resolver a questão Questão 56, Capitulo 2 do livro Halliday
+
 from vpython import *
-#GlowScript 3.0 VPython
+
 bola1 = sphere(pos=vector(0,43.9,0), color=color.red, velocity=vector(0,0,0))
 bola2= sphere(pos=vector(10,43.9,0), color=color.green, velocity=vector(0,-12.3,0))
 agua = box(pos=vector(0,0,0), color=color.cyan,size=vector(50,0.5,15))
