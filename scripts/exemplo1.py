@@ -1,4 +1,4 @@
-#Exemplo de como resolver a questão Questão 56, Capitulo 2 do livro Halliday
+#Exemplo de como resolver a questão Questão 54, Capitulo 2 do livro Halliday 10° ed.
 
 from vpython import *
 
