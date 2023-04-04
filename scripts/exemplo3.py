@@ -1,4 +1,4 @@
-# #Exemplo de como resolver a questão Questão 35, Capitulo 5 do livro Young
+#Exemplo de como resolver a questão Questão 35, Capitulo 5 do livro Young
 
 from vpython import *
 chao = box(pos=vector(20,0,5), size=vector(100,1,20))
