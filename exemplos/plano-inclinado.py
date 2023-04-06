@@ -4,8 +4,8 @@ from vpython import *
 g = 9.8
 ang = pi/4
 v0 = 0
-vz = v0*(cos(ang))
 vy = -v0*(sin(ang))
+vz = v0*(cos(ang))
 
 t = 0
 dt = 0.01
@@ -20,15 +20,16 @@ bloco = box(pos=vector(0,21,-20), size=vector(2,1,3), color=color.red)
 bloco.rotate(angle=ang)
 bloco.velocity=vector(0,vy,vz)
 
-while t < 100:
+while True:
     rate(20)
     
     bloco.pos = bloco.pos + bloco.velocity*dt
     
     vy = vy - g*cos(ang)
     vz = vz + g*sin(ang)
-    bloco.velocity=vector(0,vy,vz)
+    bloco.velocity = vector(0,vy,vz)
     
+    #Interrompe quando chega ao final da prancha
     if bloco.pos.y - bloco.size.z <= (chao.pos.y):
         break
     
