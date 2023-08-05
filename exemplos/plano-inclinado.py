@@ -20,7 +20,8 @@ bloco = box(pos=vector(0,21,-20), size=vector(2,1,3), color=color.red)
 bloco.rotate(angle=ang)
 bloco.velocity=vector(0,vy,vz)
 
-while True:
+#Interrompe quando chega ao final da prancha
+while bloco.pos.y - bloco.size.z >= (chao.pos.y):
     rate(20)
     
     bloco.pos = bloco.pos + bloco.velocity*dt
@@ -28,9 +29,5 @@ while True:
     vy = vy - g*cos(ang)
     vz = vz + g*sin(ang)
     bloco.velocity = vector(0,vy,vz)
-    
-    #Interrompe quando chega ao final da prancha
-    if bloco.pos.y - bloco.size.z <= (chao.pos.y):
-        break
-    
+
     t=t+dt
