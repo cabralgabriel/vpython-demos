@@ -1,4 +1,4 @@
-# 📚 Exercícios de Física Básica Aplicados ao VPython 🌍
+# Exercícios de Física Básica aplicados ao VPython
 
 ## 🚀 Exercício 1
 
@@ -9,7 +9,7 @@ pedra é atirada verticalmente para baixo $1,0 \ s$ após a primeira ter sido de
 
 **(b)** Plote a velocidade em função do tempo para as duas pedras, supondo que $t = 0$ é o instante em que a primeira pedra foi deixada cair.
 
-[🔗 Link para o script do Exercício 1](https://github.com/gabryus/vpython-demos/blob/main/questoes/cinematica-queda-livre.py)
+[🔗 Link para o script do Exercício 1](https://github.com/cabralgabriel/vpython-demos/blob/main/questoes/cinematica-queda-livre.py)
 
 ## 🌄 Exercício 2
 
@@ -21,9 +21,9 @@ Na Fig. abaixo, uma pedra é lançada para o alto de um rochedo de altura $h$ co
 
 **(c)** Determine a altura máxima $H$ alcançada acima do solo.
 
-![Imagem do Exercício 2](https://github.com/gabryus/vpython/blob/main/questoes/imagens/questao2.png)
+![Imagem do Exercício 2](https://github.com/cabralgabriel/vpython-demos/blob/main/questoes/imagens/questao2.png)
 
-[🔗 Link para o script do Exercício 2](https://github.com/gabryus/vpython-demos/blob/main/questoes/cinematica-lancamento-obliquo.py)
+[🔗 Link para o script do Exercício 2](https://github.com/cabralgabriel/vpython-demos/blob/main/questoes/cinematica-lancamento-obliquo.py)
 
 ## 🚗 Exercício 3
 
@@ -33,4 +33,4 @@ Distância de freada.
 
 **(b)** Sobre um pavimento molhado, o coeficiente de atrito cinético se reduz a $0,25$. A que velocidade você poderia dirigir no pavimento molhado para que o carro parasse na mesma distância calculada em (a)?
 
-[🔗 Link para o script do Exercício 3](https://github.com/gabryus/vpython-demos/blob/main/questoes/dinamica-atrito.py)
+[🔗 Link para o script do Exercício 3](https://github.com/cabralgabriel/vpython-demos/blob/main/questoes/dinamica-atrito.py)
